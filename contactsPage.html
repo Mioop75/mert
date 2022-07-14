@@ -10,8 +10,8 @@
 <meta name="keywords" content="">
 <meta name="robots" content="">
 <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-<link rel="stylesheet" href="css/libs.min.css?_v=20220713224339">
-<link rel="stylesheet" href="css/style.min.css?_v=20220713224339">
+<link rel="stylesheet" href="css/libs.min.css?_v=20220714223834">
+<link rel="stylesheet" href="css/style.min.css?_v=20220714223834">
 <title>Контакты</title>
 </head>
 
@@ -62,7 +62,7 @@
         <img src="img/logo.png" alt="Mernat Limiited">
       </a>
       <div class="d-flex">
-        <a href="#" class="header-top__login">ВОЙТИ</a>
+        <a href="#" class="header-top__login" role="button" data-bs-toggle="modal" data-bs-target="#login">ВОЙТИ</a>
         <div class="d-flex align-items-center">
           <a href="#" class="header-top__heart">
             <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@
                 fill="black" />
             </svg>
           </a>
-          <a href="#" class="header-top__basket">
+          <a role="button" data-bs-toggle="modal" data-bs-target="#basketModal" class="header-top__basket">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M22.5002 16.8206H6.16683C5.85741 16.8206 5.56066 16.6977 5.34187 16.4789C5.12308 16.2601 5.00016 15.9634 5.00016 15.654C5.00016 15.3446 5.12308 15.0478 5.34187 14.829C5.56066 14.6102 5.85741 14.4873 6.16683 14.4873H18.3468C19.1269 14.4873 19.8847 14.2268 20.4998 13.747C21.1148 13.2672 21.552 12.5956 21.7418 11.839L23.6668 4.2673C23.7105 4.09511 23.7143 3.91522 23.6779 3.74134C23.6415 3.56746 23.5659 3.40419 23.4568 3.26397C23.3434 3.12016 23.1976 3.00508 23.0314 2.92806C22.8652 2.85104 22.6832 2.81424 22.5002 2.82064H5.88683C5.64613 2.13983 5.20075 1.55014 4.61174 1.1324C4.02273 0.714663 3.31893 0.489334 2.59683 0.487305H1.50016C1.19074 0.487305 0.893997 0.610221 0.675205 0.829013C0.456412 1.04781 0.333496 1.34455 0.333496 1.65397C0.333496 1.96339 0.456412 2.26014 0.675205 2.47893C0.893997 2.69772 1.19074 2.82064 1.50016 2.82064H2.59683C2.86334 2.81287 3.12446 2.89663 3.33674 3.05795C3.54901 3.21928 3.69962 3.44845 3.7635 3.7073L3.8335 4.2673L5.85183 12.154C4.92357 12.1957 4.04993 12.6046 3.42309 13.2905C2.79625 13.9764 2.46756 14.8832 2.50933 15.8115C2.5511 16.7397 2.95991 17.6134 3.64582 18.2402C4.33174 18.8671 5.23857 19.1957 6.16683 19.154H6.37683C6.18495 19.6826 6.1233 20.2497 6.19708 20.8073C6.27087 21.3648 6.47792 21.8963 6.8007 22.3569C7.12349 22.8174 7.5525 23.1934 8.05141 23.453C8.55032 23.7126 9.10443 23.8481 9.66683 23.8481C10.2292 23.8481 10.7833 23.7126 11.2823 23.453C11.7812 23.1934 12.2102 22.8174 12.533 22.3569C12.8557 21.8963 13.0628 21.3648 13.1366 20.8073C13.2104 20.2497 13.1487 19.6826 12.9568 19.154H15.7102C15.5183 19.6826 15.4566 20.2497 15.5304 20.8073C15.6042 21.3648 15.8112 21.8963 16.134 22.3569C16.4568 22.8174 16.8858 23.1934 17.3847 23.453C17.8837 23.7126 18.4378 23.8481 19.0002 23.8481C19.5626 23.8481 20.1167 23.7126 20.6156 23.453C21.1145 23.1934 21.5435 22.8174 21.8663 22.3569C22.1891 21.8963 22.3961 21.3648 22.4699 20.8073C22.5437 20.2497 22.482 19.6826 22.2902 19.154H22.5002C22.8096 19.154 23.1063 19.0311 23.3251 18.8123C23.5439 18.5935 23.6668 18.2967 23.6668 17.9873C23.6668 17.6779 23.5439 17.3811 23.3251 17.1623C23.1063 16.9436 22.8096 16.8206 22.5002 16.8206ZM21.0068 5.15397L19.4785 11.2673C19.4146 11.5262 19.264 11.7553 19.0517 11.9167C18.8395 12.078 18.5783 12.1617 18.3118 12.154H8.2435L6.4935 5.15397H21.0068ZM9.66683 21.4873C9.43608 21.4873 9.21052 21.4189 9.01866 21.2907C8.82681 21.1625 8.67727 20.9803 8.58897 20.7671C8.50067 20.5539 8.47756 20.3193 8.52258 20.093C8.5676 19.8667 8.67871 19.6588 8.84187 19.4957C9.00503 19.3325 9.21291 19.2214 9.43922 19.1764C9.66553 19.1314 9.90011 19.1545 10.1133 19.2428C10.3265 19.3311 10.5087 19.4806 10.6369 19.6725C10.7651 19.8643 10.8335 20.0899 10.8335 20.3206C10.8335 20.6301 10.7106 20.9268 10.4918 21.1456C10.273 21.3644 9.97625 21.4873 9.66683 21.4873ZM19.0002 21.4873C18.7694 21.4873 18.5439 21.4189 18.352 21.2907C18.1601 21.1625 18.0106 20.9803 17.9223 20.7671C17.834 20.5539 17.8109 20.3193 17.8559 20.093C17.9009 19.8667 18.012 19.6588 18.1752 19.4957C18.3384 19.3325 18.5462 19.2214 18.7726 19.1764C18.9989 19.1314 19.2334 19.1545 19.4466 19.2428C19.6598 19.3311 19.842 19.4806 19.9702 19.6725C20.0984 19.8643 20.1668 20.0899 20.1668 20.3206C20.1668 20.6301 20.0439 20.9268 19.8251 21.1456C19.6063 21.3644 19.3096 21.4873 19.0002 21.4873Z"
@@ -92,18 +92,708 @@
         </div>
         <div class="col-3">
           <ul class="menu">
-            <li class="menu__item"><a href="#" class="menu__link">украшения</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">MErHAT DIAMONDS</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">свадьба</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Коллекции</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">часы</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Серебро</a></li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">украшения</a>
+              <div class="menu__dropdown">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="d-flex">
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Все украшения</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Новинки</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Посуда</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Другое</a></li>
+                        </ul>
+                        <hr>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Категория</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Для кого</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Мужские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Женские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Детские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Материал</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Белое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Желтое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Красное золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серебро</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сталь</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Вставки</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">С камнями</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Бриллиант</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Изумруд</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сапфир</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Рубин</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Фианит</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Топаз</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Жемчуг</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Гранат</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Аметист</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/about-brand-page/about-brand-img.jpg" class="h-100" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">MErHAT DIAMONDS</a>
+              <div class="menu__dropdown">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="d-flex">
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Все украшения</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Новинки</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Посуда</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Другое</a></li>
+                        </ul>
+                        <hr>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Категория</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Для кого</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Мужские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Женские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Детские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Материал</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Белое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Желтое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Красное золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серебро</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сталь</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Вставки</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">С камнями</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Бриллиант</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Изумруд</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сапфир</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Рубин</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Фианит</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Топаз</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Жемчуг</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Гранат</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Аметист</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/about-brand-page/about-brand-img.jpg" class="h-100" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">свадьба</a>
+              <div class="menu__dropdown">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="d-flex">
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Все украшения</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Новинки</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Посуда</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Другое</a></li>
+                        </ul>
+                        <hr>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Категория</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Для кого</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Мужские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Женские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Детские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Материал</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Белое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Желтое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Красное золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серебро</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сталь</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Вставки</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">С камнями</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Бриллиант</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Изумруд</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сапфир</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Рубин</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Фианит</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Топаз</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Жемчуг</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Гранат</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Аметист</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/about-brand-page/about-brand-img.jpg" class="h-100" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Коллекции</a>
+              <div class="menu__dropdown">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="d-flex">
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Все украшения</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Новинки</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Посуда</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Другое</a></li>
+                        </ul>
+                        <hr>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Категория</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Для кого</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Мужские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Женские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Детские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Материал</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Белое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Желтое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Красное золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серебро</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сталь</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Вставки</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">С камнями</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Бриллиант</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Изумруд</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сапфир</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Рубин</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Фианит</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Топаз</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Жемчуг</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Гранат</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Аметист</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/about-brand-page/about-brand-img.jpg" class="h-100" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">часы</a>
+              <div class="menu__dropdown">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="d-flex">
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Все украшения</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Новинки</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Посуда</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Другое</a></li>
+                        </ul>
+                        <hr>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Категория</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Для кого</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Мужские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Женские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Детские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Материал</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Белое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Желтое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Красное золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серебро</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сталь</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Вставки</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">С камнями</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Бриллиант</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Изумруд</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сапфир</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Рубин</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Фианит</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Топаз</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Жемчуг</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Гранат</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Аметист</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/about-brand-page/about-brand-img.jpg" class="h-100" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Серебро</a>
+              <div class="menu__dropdown">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="d-flex">
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Все украшения</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Новинки</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Посуда</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Другое</a></li>
+                        </ul>
+                        <hr>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Категория</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Кольца</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серьги</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Цепи</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Подвески</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Шармы</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Браслеты</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Колье</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Броши</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Для кого</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Мужские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Женские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Детские</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Материал</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Белое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Желтое золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Красное золото</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Серебро</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сталь</a></li>
+                        </ul>
+                        <ul class="menu__sublist">
+                          <li class="menu-sublist__item">
+                            <a href="#" class="menu-sublist__link active">Вставки</a>
+                          </li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">С камнями</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Бриллиант</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Изумруд</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Сапфир</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Рубин</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Фианит</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Топаз</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Жемчуг</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Гранат</a></li>
+                          <li class="menu-sublist__item"><a href="#" class="menu-sublist__link">Аметист</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="img/about-brand-page/about-brand-img.jpg" class="h-100" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <div class="menu-mobile">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center">
+        <button type="button" class="burger">
+          <span></span>
+        </button>
+        <button type="button" class="menu-mobile__search">
+          <img src="img/search.svg" alt="">
+        </button>
+        <a href="#" class="logo menu-mobile__logo">
+          <img src="img/logo.png" alt="">
+        </a>
+        <button type="button" class="menu-mobile__user" data-bs-toggle="modal" data-bs-target="#login">
+          <img src="img/user-mobile.svg" alt="">
+        </button>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#basketModal">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M22.5002 16.8206H6.16683C5.85741 16.8206 5.56066 16.6977 5.34187 16.4789C5.12308 16.2601 5.00016 15.9634 5.00016 15.654C5.00016 15.3446 5.12308 15.0478 5.34187 14.829C5.56066 14.6102 5.85741 14.4873 6.16683 14.4873H18.3468C19.1269 14.4873 19.8847 14.2268 20.4998 13.747C21.1148 13.2672 21.552 12.5956 21.7418 11.839L23.6668 4.2673C23.7105 4.09511 23.7143 3.91522 23.6779 3.74134C23.6415 3.56746 23.5659 3.40419 23.4568 3.26397C23.3434 3.12016 23.1976 3.00508 23.0314 2.92806C22.8652 2.85104 22.6832 2.81424 22.5002 2.82064H5.88683C5.64613 2.13983 5.20075 1.55014 4.61174 1.1324C4.02273 0.714663 3.31893 0.489334 2.59683 0.487305H1.50016C1.19074 0.487305 0.893997 0.610221 0.675205 0.829013C0.456412 1.04781 0.333496 1.34455 0.333496 1.65397C0.333496 1.96339 0.456412 2.26014 0.675205 2.47893C0.893997 2.69772 1.19074 2.82064 1.50016 2.82064H2.59683C2.86334 2.81287 3.12446 2.89663 3.33674 3.05795C3.54901 3.21928 3.69962 3.44845 3.7635 3.7073L3.8335 4.2673L5.85183 12.154C4.92357 12.1957 4.04993 12.6046 3.42309 13.2905C2.79625 13.9764 2.46756 14.8832 2.50933 15.8115C2.5511 16.7397 2.95991 17.6134 3.64582 18.2402C4.33174 18.8671 5.23857 19.1957 6.16683 19.154H6.37683C6.18495 19.6826 6.1233 20.2497 6.19708 20.8073C6.27087 21.3648 6.47792 21.8963 6.8007 22.3569C7.12349 22.8174 7.5525 23.1934 8.05141 23.453C8.55032 23.7126 9.10443 23.8481 9.66683 23.8481C10.2292 23.8481 10.7833 23.7126 11.2823 23.453C11.7812 23.1934 12.2102 22.8174 12.533 22.3569C12.8557 21.8963 13.0628 21.3648 13.1366 20.8073C13.2104 20.2497 13.1487 19.6826 12.9568 19.154H15.7102C15.5183 19.6826 15.4566 20.2497 15.5304 20.8073C15.6042 21.3648 15.8112 21.8963 16.134 22.3569C16.4568 22.8174 16.8858 23.1934 17.3847 23.453C17.8837 23.7126 18.4378 23.8481 19.0002 23.8481C19.5626 23.8481 20.1167 23.7126 20.6156 23.453C21.1145 23.1934 21.5435 22.8174 21.8663 22.3569C22.1891 21.8963 22.3961 21.3648 22.4699 20.8073C22.5437 20.2497 22.482 19.6826 22.2902 19.154H22.5002C22.8096 19.154 23.1063 19.0311 23.3251 18.8123C23.5439 18.5935 23.6668 18.2967 23.6668 17.9873C23.6668 17.6779 23.5439 17.3811 23.3251 17.1623C23.1063 16.9436 22.8096 16.8206 22.5002 16.8206ZM21.0068 5.15397L19.4785 11.2673C19.4146 11.5262 19.264 11.7553 19.0517 11.9167C18.8395 12.078 18.5783 12.1617 18.3118 12.154H8.2435L6.4935 5.15397H21.0068ZM9.66683 21.4873C9.43608 21.4873 9.21052 21.4189 9.01866 21.2907C8.82681 21.1625 8.67727 20.9803 8.58897 20.7671C8.50067 20.5539 8.47756 20.3193 8.52258 20.093C8.5676 19.8667 8.67871 19.6588 8.84187 19.4957C9.00503 19.3325 9.21291 19.2214 9.43922 19.1764C9.66553 19.1314 9.90011 19.1545 10.1133 19.2428C10.3265 19.3311 10.5087 19.4806 10.6369 19.6725C10.7651 19.8643 10.8335 20.0899 10.8335 20.3206C10.8335 20.6301 10.7106 20.9268 10.4918 21.1456C10.273 21.3644 9.97625 21.4873 9.66683 21.4873ZM19.0002 21.4873C18.7694 21.4873 18.5439 21.4189 18.352 21.2907C18.1601 21.1625 18.0106 20.9803 17.9223 20.7671C17.834 20.5539 17.8109 20.3193 17.8559 20.093C17.9009 19.8667 18.012 19.6588 18.1752 19.4957C18.3384 19.3325 18.5462 19.2214 18.7726 19.1764C18.9989 19.1314 19.2334 19.1545 19.4466 19.2428C19.6598 19.3311 19.842 19.4806 19.9702 19.6725C20.0984 19.8643 20.1668 20.0899 20.1668 20.3206C20.1668 20.6301 20.0439 20.9268 19.8251 21.1456C19.6063 21.3644 19.3096 21.4873 19.0002 21.4873Z"
+              fill="black"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-mobile-overlay">
+        <div class="container">
+          <div class="menu-mobile__item-1 d-flex justify-content-between align-items-center">
+            <div class="menu-mobile__address"><span>АЛМАТЫ</span></div>
+            <div class="menu-mobile__phone">+7 700 667 4034</div>
+            <div class="menu-mobile__select select">
+              <button class="select__btn">Рус</button>
+              <ul class="select__list">
+                <li class="select__item" data-value="Eng">Анг</li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu-mobile__item-2">
+            <ul class="menu-mobile__list">
+              <li class="menu-mobile__item">
+                <span>украшения</span>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.30494 5.68805L1.8241 1.21513C1.75051 1.14093 1.66295 1.08203 1.56648 1.04184C1.47001 1.00165 1.36653 0.980957 1.26202 0.980957C1.15751 0.980957 1.05404 1.00165 0.957564 1.04184C0.861092 1.08203 0.773533 1.14093 0.699937 1.21513C0.552489 1.36346 0.469727 1.56411 0.469727 1.77326C0.469727 1.9824 0.552489 2.18305 0.699937 2.33138L4.61869 6.28971L0.699937 10.2085C0.552489 10.3568 0.469727 10.5574 0.469727 10.7666C0.469727 10.9757 0.552489 11.1764 0.699937 11.3247C0.773257 11.3995 0.860693 11.459 0.957177 11.4998C1.05366 11.5406 1.15728 11.5618 1.26202 11.5622C1.36676 11.5618 1.47038 11.5406 1.56686 11.4998C1.66335 11.459 1.75078 11.3995 1.8241 11.3247L6.30494 6.8518C6.3853 6.77766 6.44943 6.68769 6.49329 6.58754C6.53716 6.4874 6.5598 6.37925 6.5598 6.26992C6.5598 6.16059 6.53716 6.05245 6.49329 5.9523C6.44943 5.85216 6.3853 5.76218 6.30494 5.68805V5.68805Z"
+                    fill="black" />
+                </svg>
+              </li>
+              <li class="menu-mobile__item">
+                <span>MErHAT DIAMONDS</span>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.30494 5.68805L1.8241 1.21513C1.75051 1.14093 1.66295 1.08203 1.56648 1.04184C1.47001 1.00165 1.36653 0.980957 1.26202 0.980957C1.15751 0.980957 1.05404 1.00165 0.957564 1.04184C0.861092 1.08203 0.773533 1.14093 0.699937 1.21513C0.552489 1.36346 0.469727 1.56411 0.469727 1.77326C0.469727 1.9824 0.552489 2.18305 0.699937 2.33138L4.61869 6.28971L0.699937 10.2085C0.552489 10.3568 0.469727 10.5574 0.469727 10.7666C0.469727 10.9757 0.552489 11.1764 0.699937 11.3247C0.773257 11.3995 0.860693 11.459 0.957177 11.4998C1.05366 11.5406 1.15728 11.5618 1.26202 11.5622C1.36676 11.5618 1.47038 11.5406 1.56686 11.4998C1.66335 11.459 1.75078 11.3995 1.8241 11.3247L6.30494 6.8518C6.3853 6.77766 6.44943 6.68769 6.49329 6.58754C6.53716 6.4874 6.5598 6.37925 6.5598 6.26992C6.5598 6.16059 6.53716 6.05245 6.49329 5.9523C6.44943 5.85216 6.3853 5.76218 6.30494 5.68805V5.68805Z"
+                    fill="black" />
+                </svg>
+              </li>
+              <li class="menu-mobile__item">
+                <span>свадьба</span>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.30494 5.68805L1.8241 1.21513C1.75051 1.14093 1.66295 1.08203 1.56648 1.04184C1.47001 1.00165 1.36653 0.980957 1.26202 0.980957C1.15751 0.980957 1.05404 1.00165 0.957564 1.04184C0.861092 1.08203 0.773533 1.14093 0.699937 1.21513C0.552489 1.36346 0.469727 1.56411 0.469727 1.77326C0.469727 1.9824 0.552489 2.18305 0.699937 2.33138L4.61869 6.28971L0.699937 10.2085C0.552489 10.3568 0.469727 10.5574 0.469727 10.7666C0.469727 10.9757 0.552489 11.1764 0.699937 11.3247C0.773257 11.3995 0.860693 11.459 0.957177 11.4998C1.05366 11.5406 1.15728 11.5618 1.26202 11.5622C1.36676 11.5618 1.47038 11.5406 1.56686 11.4998C1.66335 11.459 1.75078 11.3995 1.8241 11.3247L6.30494 6.8518C6.3853 6.77766 6.44943 6.68769 6.49329 6.58754C6.53716 6.4874 6.5598 6.37925 6.5598 6.26992C6.5598 6.16059 6.53716 6.05245 6.49329 5.9523C6.44943 5.85216 6.3853 5.76218 6.30494 5.68805V5.68805Z"
+                    fill="black" />
+                </svg>
+              </li>
+              <li class="menu-mobile__item">
+                <span>Коллекции</span>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.30494 5.68805L1.8241 1.21513C1.75051 1.14093 1.66295 1.08203 1.56648 1.04184C1.47001 1.00165 1.36653 0.980957 1.26202 0.980957C1.15751 0.980957 1.05404 1.00165 0.957564 1.04184C0.861092 1.08203 0.773533 1.14093 0.699937 1.21513C0.552489 1.36346 0.469727 1.56411 0.469727 1.77326C0.469727 1.9824 0.552489 2.18305 0.699937 2.33138L4.61869 6.28971L0.699937 10.2085C0.552489 10.3568 0.469727 10.5574 0.469727 10.7666C0.469727 10.9757 0.552489 11.1764 0.699937 11.3247C0.773257 11.3995 0.860693 11.459 0.957177 11.4998C1.05366 11.5406 1.15728 11.5618 1.26202 11.5622C1.36676 11.5618 1.47038 11.5406 1.56686 11.4998C1.66335 11.459 1.75078 11.3995 1.8241 11.3247L6.30494 6.8518C6.3853 6.77766 6.44943 6.68769 6.49329 6.58754C6.53716 6.4874 6.5598 6.37925 6.5598 6.26992C6.5598 6.16059 6.53716 6.05245 6.49329 5.9523C6.44943 5.85216 6.3853 5.76218 6.30494 5.68805V5.68805Z"
+                    fill="black" />
+                </svg>
+              </li>
+              <li class="menu-mobile__item">
+                <span>часы</span>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.30494 5.68805L1.8241 1.21513C1.75051 1.14093 1.66295 1.08203 1.56648 1.04184C1.47001 1.00165 1.36653 0.980957 1.26202 0.980957C1.15751 0.980957 1.05404 1.00165 0.957564 1.04184C0.861092 1.08203 0.773533 1.14093 0.699937 1.21513C0.552489 1.36346 0.469727 1.56411 0.469727 1.77326C0.469727 1.9824 0.552489 2.18305 0.699937 2.33138L4.61869 6.28971L0.699937 10.2085C0.552489 10.3568 0.469727 10.5574 0.469727 10.7666C0.469727 10.9757 0.552489 11.1764 0.699937 11.3247C0.773257 11.3995 0.860693 11.459 0.957177 11.4998C1.05366 11.5406 1.15728 11.5618 1.26202 11.5622C1.36676 11.5618 1.47038 11.5406 1.56686 11.4998C1.66335 11.459 1.75078 11.3995 1.8241 11.3247L6.30494 6.8518C6.3853 6.77766 6.44943 6.68769 6.49329 6.58754C6.53716 6.4874 6.5598 6.37925 6.5598 6.26992C6.5598 6.16059 6.53716 6.05245 6.49329 5.9523C6.44943 5.85216 6.3853 5.76218 6.30494 5.68805V5.68805Z"
+                    fill="black" />
+                </svg>
+              </li>
+              <li class="menu-mobile__item">
+                <span>Серебро</span>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.30494 5.68805L1.8241 1.21513C1.75051 1.14093 1.66295 1.08203 1.56648 1.04184C1.47001 1.00165 1.36653 0.980957 1.26202 0.980957C1.15751 0.980957 1.05404 1.00165 0.957564 1.04184C0.861092 1.08203 0.773533 1.14093 0.699937 1.21513C0.552489 1.36346 0.469727 1.56411 0.469727 1.77326C0.469727 1.9824 0.552489 2.18305 0.699937 2.33138L4.61869 6.28971L0.699937 10.2085C0.552489 10.3568 0.469727 10.5574 0.469727 10.7666C0.469727 10.9757 0.552489 11.1764 0.699937 11.3247C0.773257 11.3995 0.860693 11.459 0.957177 11.4998C1.05366 11.5406 1.15728 11.5618 1.26202 11.5622C1.36676 11.5618 1.47038 11.5406 1.56686 11.4998C1.66335 11.459 1.75078 11.3995 1.8241 11.3247L6.30494 6.8518C6.3853 6.77766 6.44943 6.68769 6.49329 6.58754C6.53716 6.4874 6.5598 6.37925 6.5598 6.26992C6.5598 6.16059 6.53716 6.05245 6.49329 5.9523C6.44943 5.85216 6.3853 5.76218 6.30494 5.68805V5.68805Z"
+                    fill="black" />
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-mobile__item-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#" class="menu-mobile-item-3__link">АКЦИИ</a>
+              <a href="#" class="menu-mobile-item-3__link">НОВИНКИ</a>
+              <a href="#" class="menu-mobile-item-3__link orange">SALE</a>
+            </div>
+          </div>
+          <div class="menu-mobile__item-4">
+            <ul class="menu-mobile-item-4__list">
+              <li class="menu-mobile-item-4__item"><a href="#">Украшения на заказ</a></href></li>
+              <li class="menu-mobile-item-4__item"><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+              <li class="menu-mobile-item-4__item"><a href="#">МАГАЗИНЫ</a></li>
+              <li class="menu-mobile-item-4__item"><a href="#">ЖУРНАЛ</a></li>
+              <li class="menu-mobile-item-4__item"><a href="#">ВАКАНСИИ</a></li>
+            </ul>
+          </div>
+          <div class="form-control">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.575287 5.90151C0.618915 5.78899 0.684334 5.68619 0.767788 5.59901L5.35112 1.01568C5.43659 0.930209 5.53805 0.862412 5.64972 0.816157C5.76139 0.769901 5.88108 0.746094 6.00195 0.746094C6.24606 0.746094 6.48017 0.843066 6.65279 1.01568C6.73826 1.10115 6.80605 1.20261 6.85231 1.31428C6.89856 1.42595 6.92237 1.54564 6.92237 1.66651C6.92237 1.91062 6.8254 2.14473 6.65279 2.31734L3.62779 5.33318H10.5853C10.8284 5.33318 11.0616 5.42975 11.2335 5.60166C11.4054 5.77357 11.502 6.00673 11.502 6.24984C11.502 6.49296 11.4054 6.72612 11.2335 6.89803C11.0616 7.06993 10.8284 7.16651 10.5853 7.16651H3.62779L6.65279 10.1823C6.7387 10.2676 6.8069 10.3689 6.85344 10.4806C6.89997 10.5924 6.92394 10.7122 6.92394 10.8332C6.92394 10.9542 6.89997 11.074 6.85344 11.1857C6.8069 11.2974 6.7387 11.3988 6.65279 11.484C6.56757 11.5699 6.46619 11.6381 6.35448 11.6847C6.24278 11.7312 6.12296 11.7552 6.00195 11.7552C5.88094 11.7552 5.76113 11.7312 5.64942 11.6847C5.53772 11.6381 5.43634 11.5699 5.35112 11.484L0.767788 6.90068C0.684334 6.8135 0.618915 6.7107 0.575287 6.59818C0.483604 6.375 0.483604 6.12468 0.575287 5.90151Z"
+                fill="#8E8E8E" />
+            </svg>
+            <input type="text" placeholder="Поиск по каталогу" class="w-75">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
+<div class="modal fade" id="login" aria-labelledby="loginLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginLabel">Вход или регистрация</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-input">
+          <label for="phoneInput" class="form-label">Телефон</label>
+          <input type="tel" class="form-control" id="phoneInput" aria-describedby="photeHelp"
+            placeholder="+7 (___) ___-__-__">
+        </div>
+        <div class="modal-desc">На указанный телефон будет отправлен код подтверждения</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" disabled class="btn">Отправить код</button>
+        <a href="#" class="modal-link">Войти через email</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="login2" aria-labelledby="loginLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginLabel">Вход или регистрация</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-phone">
+          <div class="modal-phone__info">Телефон</div>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="modal-phone__number">+7 (777) 334-22-00</div>
+            <button type="button" class="modal-phone__change">
+              <img src="img/pencil.svg" alt="">
+            </button>
+          </div>
+        </div>
+        <div class="modal-input">
+          <label for="phoneInput" class="form-label">Код подтверждения</label>
+          <input type="text" class="form-control" id="phoneInput" aria-describedby="photeHelp"
+            placeholder="Код подтверждения">
+        </div>
+        <div class="modal-desc">
+          <span>SMS с кодом отправлено на указанный номер</span>
+          <span class="modal-desc-time">Отправить код повторно через 00:51</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" disabled class="btn">Подтвердить</button>
+        <a href="#" class="modal-link">Войти через email</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-basket fade" id="basketModal" aria-labelledby="basketModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="d-flex justify-content-between align-items-center flex-grow-1">
+          <h5 class="modal-title" id="basketModalLabel">В корзине 1 товар</h5>
+          <div class="select">
+            <button class="select__btn">Алматы</button>
+            <ul class="select__list">
+              <li class="select__item" data-value="test">Test</li>
+            </ul>
+          </div>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body modal-basket-body">
+        <div class="d-flex align-items-center">
+          <img src="img/ring/08.jpg" class="modal-basket-body-img" alt="">
+          <div class="modal-basket-body-info">
+            <div class="modal-basket-body-info-discount">ЕЩЁ -10%</div>
+            <div class="modal-basket-body-info-desc">Кольцо из белого золота 585 пробы с бриллиантом</div>
+          </div>
+          <div class="modal-basket-body-item">
+            <div class="modal-basket-body-block">
+              <!-- Minus -->
+              <svg width="21" class="modal-basket-body-block-minus" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.9102 0.855469C8.93235 0.855469 6.99895 1.44196 5.35446 2.54077C3.70997 3.63959 2.42824 5.20137 1.67137 7.02863C0.914489 8.8559 0.716456 10.8666 1.10231 12.8064C1.48816 14.7462 2.44057 16.528 3.83909 17.9265C5.23762 19.3251 7.01945 20.2775 8.95926 20.6633C10.8991 21.0492 12.9097 20.8511 14.737 20.0943C16.5643 19.3374 18.126 18.0557 19.2249 16.4112C20.3237 14.7667 20.9102 12.8333 20.9102 10.8555C20.9102 9.54225 20.6515 8.24189 20.149 7.02863C19.6464 5.81538 18.9098 4.71299 17.9812 3.7844C17.0526 2.85582 15.9503 2.11922 14.737 1.61667C13.5237 1.11413 12.2234 0.855469 10.9102 0.855469ZM10.9102 18.8555C9.32791 18.8555 7.78119 18.3863 6.4656 17.5072C5.15001 16.6282 4.12463 15.3787 3.51912 13.9169C2.91362 12.4551 2.7552 10.8466 3.06388 9.29475C3.37256 7.7429 4.13449 6.31743 5.25331 5.19861C6.37213 4.07979 7.79759 3.31787 9.34944 3.00919C10.9013 2.70051 12.5098 2.85893 13.9716 3.46443C15.4334 4.06993 16.6829 5.09531 17.5619 6.41091C18.441 7.7265 18.9102 9.27322 18.9102 10.8555C18.9102 12.9772 18.0673 15.012 16.567 16.5123C15.0667 18.0126 13.0319 18.8555 10.9102 18.8555ZM14.9102 9.85547H6.91016C6.64494 9.85547 6.39059 9.96083 6.20305 10.1484C6.01552 10.3359 5.91016 10.5903 5.91016 10.8555C5.91016 11.1207 6.01552 11.375 6.20305 11.5626C6.39059 11.7501 6.64494 11.8555 6.91016 11.8555H14.9102C15.1754 11.8555 15.4297 11.7501 15.6173 11.5626C15.8048 11.375 15.9102 11.1207 15.9102 10.8555C15.9102 10.5903 15.8048 10.3359 15.6173 10.1484C15.4297 9.96083 15.1754 9.85547 14.9102 9.85547Z"
+                  fill="#C8C8C8" />
+              </svg>
+              <!-- Numbers -->
+              <p>1</p>
+              <!-- Plus -->
+              <svg width="21" class="modal-basket-body-block-plus" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.9102 0.855469C8.93235 0.855469 6.99895 1.44196 5.35446 2.54077C3.70997 3.63959 2.42824 5.20137 1.67137 7.02863C0.914489 8.8559 0.716456 10.8666 1.10231 12.8064C1.48816 14.7462 2.44057 16.528 3.83909 17.9265C5.23762 19.3251 7.01945 20.2775 8.95926 20.6633C10.8991 21.0492 12.9097 20.8511 14.737 20.0943C16.5643 19.3374 18.126 18.0557 19.2249 16.4112C20.3237 14.7667 20.9102 12.8333 20.9102 10.8555C20.9102 9.54225 20.6515 8.24189 20.149 7.02863C19.6464 5.81538 18.9098 4.71299 17.9812 3.7844C17.0526 2.85582 15.9503 2.11922 14.737 1.61667C13.5237 1.11413 12.2234 0.855469 10.9102 0.855469ZM10.9102 18.8555C9.32791 18.8555 7.78119 18.3863 6.4656 17.5072C5.15001 16.6282 4.12463 15.3787 3.51912 13.9169C2.91362 12.4551 2.7552 10.8466 3.06388 9.29475C3.37256 7.7429 4.13449 6.31743 5.25331 5.19861C6.37213 4.07979 7.79759 3.31787 9.34944 3.00919C10.9013 2.70051 12.5098 2.85893 13.9716 3.46443C15.4334 4.06993 16.6829 5.09531 17.5619 6.41091C18.441 7.7265 18.9102 9.27322 18.9102 10.8555C18.9102 12.9772 18.0673 15.012 16.567 16.5123C15.0667 18.0126 13.0319 18.8555 10.9102 18.8555ZM14.9102 9.85547H11.9102V6.85547C11.9102 6.59025 11.8048 6.3359 11.6173 6.14836C11.4297 5.96083 11.1754 5.85547 10.9102 5.85547C10.6449 5.85547 10.3906 5.96083 10.2031 6.14836C10.0155 6.3359 9.91016 6.59025 9.91016 6.85547V9.85547H6.91016C6.64494 9.85547 6.39059 9.96083 6.20305 10.1484C6.01552 10.3359 5.91016 10.5903 5.91016 10.8555C5.91016 11.1207 6.01552 11.375 6.20305 11.5626C6.39059 11.7501 6.64494 11.8555 6.91016 11.8555H9.91016V14.8555C9.91016 15.1207 10.0155 15.375 10.2031 15.5626C10.3906 15.7501 10.6449 15.8555 10.9102 15.8555C11.1754 15.8555 11.4297 15.7501 11.6173 15.5626C11.8048 15.375 11.9102 15.1207 11.9102 14.8555V11.8555H14.9102C15.1754 11.8555 15.4297 11.7501 15.6173 11.5626C15.8048 11.375 15.9102 11.1207 15.9102 10.8555C15.9102 10.5903 15.8048 10.3359 15.6173 10.1484C15.4297 9.96083 15.1754 9.85547 14.9102 9.85547Z"
+                  fill="black" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-basket-body-item">
+            <div class="modal-basket-body-price">
+              347 489 ₸
+              <span class="text-decoration-line-through">695 040 ₸</span>
+            </div>
+          </div>
+          <div class="modal-basket-body-item d-flex align-items-center">
+            <button class="modal-basket-body-like" type="button">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.0704 5.85642C20.0041 4.80112 18.5958 4.16169 17.0995 4.0535C15.6032 3.94531 14.1174 4.37549 12.9104 5.26642C11.6381 4.32005 10.0544 3.89093 8.47835 4.06545C6.90228 4.23998 5.45087 5.00519 4.41641 6.207C3.38194 7.40881 2.84125 8.95794 2.90323 10.5424C2.96521 12.1269 3.62525 13.6291 4.75043 14.7464L10.7504 20.7964C11.3129 21.3582 12.0754 21.6738 12.8704 21.6738C13.6654 21.6738 14.4279 21.3582 14.9904 20.7964L20.9904 14.7464C21.5814 14.1691 22.0524 13.4806 22.3764 12.7206C22.7004 11.9607 22.871 11.1442 22.8784 10.318C22.8859 9.49192 22.73 8.67247 22.4197 7.9068C22.1094 7.14112 21.6509 6.44431 21.0704 5.85642Z"
+                  fill="#8E8E8E" />
+              </svg>
+            </button>
+            <button type="button" class="btn-close" aria-label="Удалить"></button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn">Оформить заказ на суму 469 266 ₸*</button>
+        <button type="button" class="btn btn--outline">Продолжить покупки</button>
+        <div class="modal-footer__desc">Цены являются примерными и рассчитываются по курсу ЦБ РК. Оплата происходит в
+          казахстанских тенге по курсу вашего банка.</div>
+      </div>
+    </div>
+  </div>
+</div>
     <main class="main">
       <div class="container">
         <nav aria-label="breadcrumb">
@@ -244,8 +934,8 @@
     <footer class="footer">
   <div class="container">
     <div class="footer__top">
-      <div class="row">
-        <div class="col">
+      <div class="row gy-4">
+        <div class="col-4">
           <ul class="footer__list">
             <li class="footer-list__title">
               <h2>MERHAT LIVE</h2>
@@ -259,7 +949,7 @@
             <li class="footer-list__item"><a href="#" class="footer-list__link">Вакансии</a></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-4">
           <ul class="footer__list">
             <li class="footer-list__title">
               <h2>УКРАШЕНИЯ</h2>
@@ -278,7 +968,7 @@
             <li class="footer-list__item"><a href="#" class="footer-list__link">Коллекции</a></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-xl-4">
           <ul class="footer__list">
             <li class="footer-list__title">
               <h2>ИНФОРМАЦИЯ</h2>
@@ -293,15 +983,24 @@
       </div>
     </div>
     <div class="footer__bottom">
-      <div class="row align-items-center">
+      <div class="row gy-5 align-items-center">
         <div class="col-4">
           <div class="footer__info">
             <a href="#" class="footer__phone">+7 700 667 4034</a>
             <div class="footer__address">© 2022 MERHAT</div>
+            <ul class="socials socials-mobile">
+              <li class="socials__item"><a href="#" class="socials__link"><img src="img/insta.svg" alt="Инстаграмм"></a>
+              </li>
+              <li class="socials__item"><a href="#" class="socials__link"><img src="img/vk.svg" alt="Вконтакте"></a>
+              </li>
+              <li class="socials__item"><a href="#" class="socials__link"><img src="img/telegram.svg"
+                    alt="Телеграмм"></a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="col-4">
-          <div class="d-flex align-items-center">
+          <div class="d-xl-flex align-items-center">
             <a href="#" class="footer__download">
               <img src="img/android-shop.svg" alt="Android Shop">
             </a>
@@ -310,7 +1009,7 @@
             </a>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3">
           <div class="d-flex align-items-center">
             <img src="img/d.svg" alt="">
             <div class="copy">Сайт разработан компанией
@@ -332,7 +1031,7 @@
   </div>
 </footer>
   </div>
-  <script src="js/main.js?_v=20220713224339"></script>
+  <script src="js/main.js?_v=20220714223834"></script>
 </body>
 
 </html>
